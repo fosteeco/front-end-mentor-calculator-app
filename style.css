@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+:root {
+  --mainBg: hsl(222, 26%, 31%);
+  --white: hsl(0, 0%, 100%);
+  --redKeyBg: hsl(6, 63%, 50%);
+  --calcScreenBg: hsl(268, 71%, 12%);
+  --keypadBg: hsl(223, 31%, 20%);
+  --keyBg: hsl(30, 25%, 89%);
+  --keyColor: hsl(223, 31%, 20%);
+  --secondaryKeyBgColor: hsl(225, 21%, 49%);
+  --sliderBg: hsl(223, 31%, 20%);
+}
+
+body {
+  background-color: var(--mainBg);
+  font-family: 'Spartan';
+  font-size: 32px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.calc-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calc-theme-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-slider-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-slider {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: var(--sliderBg);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.circle {
+  height: 100%;
+  width: 30px;
+  border-radius: 100%;
+  background-color: var(--redKeyBg);
+}
+
+.number-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calc-screen h2 {
+  margin: 0;
+}
+
+.calc-screen {
+  background-color: var(--calcScreenBg);
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.calc-main {
+  margin-top: 20px;
+  background-color: var(--keypadBg);
+  display: grid;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.num-pad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.secondary-btn {
+  background-color: var(--secondaryKeyBgColor) !important;
+  color: var(--white) !important;
+}
+
+.calc-extra-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.eq-btn {
+  background-color: var(--redKeyBg) !important;
+  color: var(--white) !important;
+}
+
+.calc-btn {
+  border: 0;
+  cursor: pointer;
+  font-family: 'Spartan';
+  background-color: var(--keyBg);
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--keyColor);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -157,9 +157,9 @@ body.theme-1 .calc-screen {
 body.theme-1 .calc-btn.danger {
   background-color: var(--theme-1-key-danger-bg) !important;
   color: var(--theme-1-key-danger-color) !important;
-  box-shadow: 1px 5px 0px 0px var(--theme-1-key-danger-shadow) !important;
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-1-key-danger-shadow) !important;
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-1-key-danger-shadow) !important;
+  box-shadow: 0px 5px 0px 0px var(--theme-1-key-danger-shadow) !important;
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-1-key-danger-shadow) !important;
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-1-key-danger-shadow) !important;
 }
 
 body.theme-1 .calc-btn.num-pad-key {
@@ -174,9 +174,9 @@ body.theme-1 .calc-btn.num-pad-key {
 body.theme-1 .calc-btn.secondary-btn {
   background-color: var(--theme-1-key-secondary-bg) !important;
   color: var(--theme-1-key-secondary-color) !important;
-  box-shadow: 1px 5px 0px 0px var(--theme-1-key-secondary-shadow);
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-1-key-secondary-shadow);
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-1-key-secondary-shadow);
+  box-shadow: 0px 5px 0px 0px var(--theme-1-key-secondary-shadow);
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-1-key-secondary-shadow);
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-1-key-secondary-shadow);
 }
 
 /* theme-2 colors */
@@ -220,26 +220,26 @@ body.theme-2 .calc-screen {
 body.theme-2 .calc-btn.danger {
   background-color: var(--theme-2-key-danger-bg) !important;
   color: var(--theme-2-key-danger-color) !important;
-  box-shadow: 1px 5px 0px 0px var(--theme-2-key-danger-shadow) !important;
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-2-key-danger-shadow) !important;
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-2-key-danger-shadow) !important;
+  box-shadow: 0px 5px 0px 0px var(--theme-2-key-danger-shadow) !important;
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-2-key-danger-shadow) !important;
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-2-key-danger-shadow) !important;
 }
 
 body.theme-2 .calc-btn.num-pad-key {
   background-color: var(--theme-2-key-primary-bg);
   color: var(--theme-2-key-primary-color);
-  box-shadow: 1px 5px 0px 0px var(--theme-2-key-primary-shadow);
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-2-key-primary-shadow);
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-2-key-primary-shadow);
+  box-shadow: 0px 5px 0px 0px var(--theme-2-key-primary-shadow);
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-2-key-primary-shadow);
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-2-key-primary-shadow);
   /* color: var(--keyColor); */
 }
 
 body.theme-2 .calc-btn.secondary-btn {
   background-color: var(--theme-2-key-secondary-bg) !important;
   color: var(--theme-2-key-secondary-color) !important;
-  box-shadow: 1px 5px 0px 0px var(--theme-2-key-secondary-shadow);
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-2-key-secondary-shadow);
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-2-key-secondary-shadow);
+  box-shadow: 0px 5px 0px 0px var(--theme-2-key-secondary-shadow);
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-2-key-secondary-shadow);
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-2-key-secondary-shadow);
 }
 
 /* theme-3 colors */
@@ -283,26 +283,26 @@ body.theme-3 .calc-screen {
 body.theme-3 .calc-btn.danger {
   background-color: var(--theme-3-key-danger-bg) !important;
   color: var(--theme-3-key-danger-color) !important;
-  box-shadow: 1px 5px 0px 0px var(--theme-3-key-danger-shadow) !important;
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-3-key-danger-shadow) !important;
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-3-key-danger-shadow) !important;
+  box-shadow: 0px 5px 0px 0px var(--theme-3-key-danger-shadow) !important;
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-3-key-danger-shadow) !important;
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-3-key-danger-shadow) !important;
 }
 
 body.theme-3 .calc-btn.num-pad-key {
   background-color: var(--theme-3-key-primary-bg);
   color: var(--theme-3-key-primary-color);
-  box-shadow: 1px 5px 0px 0px var(--theme-3-key-primary-shadow);
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-3-key-primary-shadow);
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-3-key-primary-shadow);
+  box-shadow: 0px 5px 0px 0px var(--theme-3-key-primary-shadow);
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-3-key-primary-shadow);
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-3-key-primary-shadow);
   /* color: var(--keyColor); */
 }
 
 body.theme-3 .calc-btn.secondary-btn {
   background-color: var(--theme-3-key-secondary-bg) !important;
   color: var(--theme-3-key-secondary-color) !important;
-  box-shadow: 1px 5px 0px 0px var(--theme-3-key-secondary-shadow);
-  -webkit-box-shadow: 1px 5px 0px 0px var(--theme-3-key-secondary-shadow);
-  -moz-box-shadow: 1px 5px 0px 0px var(--theme-3-key-secondary-shadow);
+  box-shadow: 0px 5px 0px 0px var(--theme-3-key-secondary-shadow);
+  -webkit-box-shadow: 0px 5px 0px 0px var(--theme-3-key-secondary-shadow);
+  -moz-box-shadow: 0px 5px 0px 0px var(--theme-3-key-secondary-shadow);
 }
 
 .attribution {

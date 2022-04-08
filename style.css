@@ -108,6 +108,11 @@ p {
   font-size: 2rem;
   border-radius: 10px;
   padding: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.calc-btn:hover {
+  transform: scale(1.05);
 }
 
 .calc-extra-buttons {

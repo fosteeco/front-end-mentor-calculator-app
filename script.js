@@ -1,4 +1,8 @@
 const themeAmount = 3;
+let themeSelected = 1;
+const circle = document.querySelector(".circle");
+
+const sliderPercent = (1 / (themeAmount - 1)) * 100;
 const calcBtns = document.querySelectorAll(".calc-btn");
 const calcOutput = document.querySelector("#calc-output");
 let firstNumEntered = false;
@@ -11,11 +15,21 @@ let secondNum;
 calcOutput.innerText = calcVal;
 
 const calcSlider = document.querySelector(".calc-slider");
+const numberContainer = document.querySelector(".number-container");
+
+numberContainer.addEventListener("click", (e) => {
+  const numClicked = e.target.innerText;
+  if (+numClicked) {
+    themeSelected = +numClicked;
+    const num = themeSelected - 1;
+    console.log("num :", num);
+    const newSlidePercentLeft = sliderPercent * num;
+    console.log("newSlidePercentLeft :", newSlidePercentLeft);
+    circle.style.left = newSlidePercentLeft + "%";
+  }
+});
 
 calcSlider.addEventListener("click", (e) => {
-  const circle = calcSlider.querySelector(".circle");
-  const sliderPercent = (1 / (themeAmount - 1)) * 100;
-  console.log("sliderPercent :", sliderPercent);
   let currentLeftProperty = circle.style.left;
   if (currentLeftProperty === "100%") {
     circle.style.left = "0%";

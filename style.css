@@ -30,27 +30,40 @@ p {
   flex-direction: column;
 }
 
+.calc-theme-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.calc-theme-controls p {
+  font-size: 0.75rem;
+}
+
 .calc-slider {
-  width: 100%;
-  height: 30px;
-  padding: 10px 0;
+  width: 50px;
+  align-self: flex-end;
+  padding: 5px 0;
   border-radius: 30px;
   display: flex;
   justify-content: center;
 }
 
 .circle-container {
-  width: calc(100% - 45px);
-  height: 100%;
+  width: calc(100% - 23px);
+  height: 10px;
   position: relative;
 }
 
 .circle {
   position: absolute;
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
+  top: 50%;
   left: 0%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   border-radius: 100%;
   transition: all 0.2s ease-in-out;
 }
@@ -58,6 +71,7 @@ p {
 .number-container {
   display: flex;
   justify-content: space-evenly;
+  font-size: 0.6rem;
 }
 
 .calc-screen h2 {

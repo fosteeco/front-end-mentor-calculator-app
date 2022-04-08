@@ -1,8 +1,5 @@
-const themeAmount = 3;
-let themeSelected = 1;
 const circle = document.querySelector(".circle");
 
-const sliderPercent = (1 / (themeAmount - 1)) * 100;
 const calcBtns = document.querySelectorAll(".calc-btn");
 const calcOutput = document.querySelector("#calc-output");
 let firstNumEntered = false;
@@ -13,34 +10,6 @@ let operation;
 let firstNum;
 let secondNum;
 calcOutput.innerText = calcVal;
-
-const calcSlider = document.querySelector(".calc-slider");
-const numberContainer = document.querySelector(".number-container");
-
-numberContainer.addEventListener("click", (e) => {
-  const numClicked = e.target.innerText;
-  if (+numClicked) {
-    themeSelected = +numClicked;
-    const num = themeSelected - 1;
-    console.log("num :", num);
-    const newSlidePercentLeft = sliderPercent * num;
-    console.log("newSlidePercentLeft :", newSlidePercentLeft);
-    circle.style.left = newSlidePercentLeft + "%";
-  }
-});
-
-calcSlider.addEventListener("click", (e) => {
-  let currentLeftProperty = circle.style.left;
-  if (currentLeftProperty === "100%") {
-    circle.style.left = "0%";
-    leftAmount = 0;
-  } else {
-    currentLeftProperty = leftAmount + sliderPercent;
-    const newPercent = leftAmount + sliderPercent + "% ";
-    circle.style.left = newPercent;
-    leftAmount = leftAmount + sliderPercent;
-  }
-});
 
 const formatCommaString = (num) => {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

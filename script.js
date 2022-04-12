@@ -33,7 +33,7 @@ const handlePeriodClick = (dot) => {
 const setDisplayNum = (num) => {
   firstNum = num;
   calcString = "" + num;
-  calcVal = num;
+  calcVal = num.toFixed(2);
   outputNum(formatCommaString(calcVal));
 };
 
